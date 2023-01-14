@@ -1,0 +1,10 @@
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+footer{
+    padding: 15px 0 15px 0;
+}
+footer a{
+    padding: 10px 15px;
+}
