@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        .on-focus{
+            background-color: yellow;
+        }
+        .on-blur-menos-3{
+            background-color: red;
+        }
+        .on-blur-mais-3{
+            background-color: green;
+        }
+    </style>
+    <script>
+        function onFocus(){
+            document.getElementById('input').className = "on-focus"
+        }
+        
+        function onBlur(){
+            var qtdCaractere = document.getElementById('input').value.length;
+            if(qtdCaractere<3){
+                document.getElementById('input').className = 'on-blur-menos-3'
+            } else{
+                document.getElementById('input').className = 'on-blur-mais-3'
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text"
+    id="input"
+    class=""
+    onfocus="onFocus()"
+    onblur="onBlur()"
+    >
+</body>
+</html>
