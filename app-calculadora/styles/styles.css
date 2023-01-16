@@ -1,0 +1,33 @@
+
+.btn-calc{
+    margin: 5px;
+    width: 20%;
+    height: 100%;
+    box-shadow: 1px 1px 5px #000;
+}
+.c-calc{
+    width: 45%;
+    
+}
+.igual-calc{
+    height: 110px;
+}
+.calculadora{
+    background: #2E2E2E;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: solid 1px #000;
+    box-shadow: 1px 1px 5px #000;
+}
+.visor{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+     box-shadow: 1px 1px 1px #000;
+}
+body{
+    background: #d9d9d9;
+}
